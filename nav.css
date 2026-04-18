@@ -1,0 +1,53 @@
+:root {
+  --text-color: #ffffffff;
+  --bg-color: #a74949;
+  --text-main: #1a1a1a;
+  --text-muted: #666666;
+
+  --font-heading: "Montserrat", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+header {
+  background-color: var(--bg-color);
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+header h1 {
+  color: var(--text-color);
+  font-family: cursive;
+  font-size: 2rem;
+}
+header nav ul {
+  display: flex;
+}
+
+nav {
+  display: flex;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  list-style: none;
+  padding: 10px 30px;
+}
+.glitch-text h3 {
+  align-items: center;
+}
+nav ul li a {
+  color: var(--text-color);
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  gap: 50px;
+  list-style: none;
+  text-decoration: none;
+  padding: 70px 30px;
+}
+
+.search-container {
+  padding: 10px 30px;
+}

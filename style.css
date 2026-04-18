@@ -9,51 +9,74 @@ html{
 body{
   line-height:1.6;
   font-family: 'Inter', sans-serif;
+   height: 100vh;
 }
 
-:root {
-  /* Colors */
-  --primary-color: #000000;
-  --secondary-color: #ffffff;
-  --accent-color: #007bff;
-  --bg-color: #f9f9f9;
+ :root {
+ 
+  
+  --text-color: #ffffffff;
+  --bg-color: #a74949;
   --text-main: #1a1a1a;
   --text-muted: #666666;
 
-  /* Fonts */
   --font-heading: 'Montserrat', sans-serif;
   --font-body: 'Inter', sans-serif;
 
-  /* Spacing & Borders */
-  --radius: 8px;
-  --gap: 20px;
-}
+  
+  
+} 
 
-
-
-.flex-center {
+header{
+  background-color:var(--bg-color);
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.section-padding {
-  padding: 60px 20px;
-}
-
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-
-body {
-  line-height: 1.6;
-
-}
-/*style for contact page*/
-body{
+  width: 100%;
+  justify-content: space-between;
+ 
+ 
   
 }
+.hero{
+   background: linear-gradient(green, rgb(255,255,255,0.5)) ,url('./Assets/Hero\ Section\ Background\ img\ selection/img2.jpg') ;
+   height: 70vh;
+}
+header h1{
+color: var(--text-color);
+font-family:cursive;
+font-size: 2rem;
+}
+header nav ul{
+  display: flex;
+}
+
+nav{
+  display: flex;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  list-style: none;
+  padding: 10px 30px;
+}
+.glitch-text h3{
+  align-items: center;
+
+}
+nav ul li a{
+  color:var(--text-color);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  gap: 50px;
+  list-style: none;
+  text-decoration: none;
+  padding: 70px 30px;
+}
+
+.search-container{
+  padding: 10px 30px;
+}
+
+
+
+
+
