@@ -8,7 +8,7 @@ body {
 }
 .about {
   border-radius: 50px;
-  background-color: rgb(248, 239, 239);
+  background-color: rgb(218, 199, 199);
 }
 .about-links {
   display: flex;
@@ -20,4 +20,10 @@ body {
   list-style: none;
   margin-left: 43%;
   gap: 10px;
+}
+img{
+  border-radius: 20px;
+}
+.about{
+  font-size: 20px;
 }

@@ -10,13 +10,14 @@ body{
   line-height:1.6;
   font-family: 'Inter', sans-serif;
    height: 100vh;
+   background-color: rgb(201, 149, 149);
 }
 
  :root {
  
   
-  --text-color: #ffffffff;
-  --bg-color: #a74949;
+  --text-color: rgb(19, 18, 18);
+  --bg-color: #e76969;
   --text-main: #1a1a1a;
   --text-muted: #666666;
 
@@ -24,7 +25,7 @@ body{
   --font-body: 'Inter', sans-serif;
 
   
-<<<<<<< HEAD
+
 }
 
 /* about page style  */
@@ -104,9 +105,8 @@ body {
   list-style: none;
   
 }
-=======
   
-} 
+
 
 header{
   background-color:var(--bg-color);
@@ -118,7 +118,7 @@ header{
   
 }
 .hero{
-   background: linear-gradient(green, rgb(255,255,255,0.5)) ,url('./Assets/Hero\ Section\ Background\ img\ selection/img2.jpg') ;
+   background: linear-gradient(rgb(75, 74, 74), rgb(255,255,255,0.5)) ,url('./Assets/Hero\ Section\ Background\ img\ selection/img2.jpg') ;
    height: 70vh;
 }
 header h1{
@@ -156,9 +156,33 @@ nav ul li a{
 .search-container{
   padding: 10px 30px;
 }
+.hero{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--bg-dark);
+  padding: 0 10%;
+ 
+ 
+}
+.hero h2 {
+   font-size: 4.5rem;
+  color: var(--text-main);
+  letter-spacing: 15px;
+  margin-bottom: 10px;
+
+}
+.hero p
+{
+font-family: var(--font-body);
+font-weight: bolder;
+font-size: 1.2rem;
+}
+.social{
+justify-content: center;
+}
 
 
 
-
->>>>>>> 9eb7671592b940c03204532f87c23231d2930629
 
