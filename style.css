@@ -37,7 +37,7 @@ header{
   
 }
 .hero{
-   background: linear-gradient(green, rgb(255,255,255,0.5)) ,url('./Assets/Hero\ Section\ Background\ img\ selection/img2.jpg') ;
+   background: linear-gradient(rgb(75, 74, 74), rgb(255,255,255,0.5)) ,url('./Assets/Hero\ Section\ Background\ img\ selection/img2.jpg') ;
    height: 70vh;
 }
 header h1{
@@ -75,7 +75,32 @@ nav ul li a{
 .search-container{
   padding: 10px 30px;
 }
+.hero{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--bg-dark);
+  padding: 0 10%;
+ 
+ 
+}
+.hero h2 {
+   font-size: 4.5rem;
+  color: var(--text-main);
+  letter-spacing: 15px;
+  margin-bottom: 10px;
 
+}
+.hero p
+{
+font-family: var(--font-body);
+font-weight: bolder;
+font-size: 1.2rem;
+}
+.social{
+
+}
 
 
 
