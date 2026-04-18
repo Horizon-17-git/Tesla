@@ -1,0 +1,73 @@
+
+        *{
+
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            width: 100%;
+            height: auto;
+        }
+        main ul{
+            display: flex;
+            gap: 50px;
+            padding: 10px;
+            justify-content: right;
+
+        }
+        main li{
+            list-style: none;
+            padding: 10px;
+        }
+       
+        .container{
+           height: 450vh;
+           width: 100%;
+           background: linear-gradient(rgb(173, 161, 161),#2b1b16,rgb(163, 160, 177),#1b1024);
+           position: relative;
+           display: grid;
+           grid-template-row: 1fr 1fr 1fr;
+           gap: 30px;
+           
+        }
+        .traditional{
+            display: grid;
+           padding: 30px;
+           grid-template-columns: 1fr 1fr 1fr;
+           gap: 30px;
+           
+        }
+        .modern{
+            display: grid;
+           padding: 30px;
+           grid-template-columns: 1fr 1fr 1fr;
+           gap: 30px;
+           
+        }
+         .drinks{
+            display: grid;
+           padding: 30px;
+           grid-template-columns: 1fr 1fr 1fr;
+           gap: 30px;
+           
+        }
+        .card{
+           
+            background-color: #bfcbda6b;
+            padding: 20px;
+            border-radius: 40px;
+            gap: 40px;
+        }
+
+      
+        .card img{
+            width: 300px;
+            border-radius: 30px;
+        }
+       .card p.name{
+            color: rgb(62, 26, 80);
+            font-size: 30px;
+       }
+       .card p{
+        color: #bb1408;
+       }

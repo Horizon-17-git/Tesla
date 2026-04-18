@@ -4,126 +4,138 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        *{
 
-            margin: 0;
-            padding: 0;
-        }
-        header{
-            display: flex;
-            justify-content: space-between;
-            padding: 50px;
-        }
-        header ul{
-          display: flex;
-          gap: 5vw;
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto+Mono:wght@500;700&display=swap"
+      rel="stylesheet"
 
-        }
-        li{
-            list-style: none;
-        }
-        header h2{
-            color: aqua;
-
-        }
-        .container{
-           height: 200vh;
-           width: 100vw;
-           background: linear-gradient(rgb(47, 228, 86),#2d80ec);
-           position: relative;
-           display: grid;
-           grid-template-columns: 1fr 1fr 1fr;
-           
-        }
-        .card{
-           
-            background-color: #2d80ec;
-            padding: 20px;
-            border-radius: 40px;
-            gap: 40px;
-        }
-
-      
-        .card img{
-            width: 300px;
-            border-radius: 30px;
-        }
-    </style>
+    />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+     <link rel="stylesheet" href="./nav.css">
+     <link rel="stylesheet" href="./menu.css">
 </head>
 <body>
     <header>
         <h2>FOOD MENU</h2>
         <nav>
             <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href="#MENU">MENU</a></li>
-                <li><a href="">ABOUT US</a></li>
-                <li><a href="">CONTACT</a></li>
+                <li><a href="/Tesla/index.html">HOME</a></li>
+                <li><a href="/Tesla/menu.html">MENU</a></li>
+                <li><a href="/Tesla/aboutPage.html">ABOUT US</a></li>
+                <li><a href="/Tesla/contact page.html">CONTACT</a></li>
             </ul>
         </nav>
+        <div class="search-container">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
     </header>
 <main>
+    <ul>
+        <li><a href="#tradional">TRADITIONAL</a></li>
+        <li><a href="#modern">MODERN</a></li>
+        <li><a href="#drinks">DRINKS</a></li>
+    </ul>
     <div class="container">
-        <div class="card" id="f1">
-            <p>NAME</p>
+        <div class="traditional" id="tradional">
+               <div class="card" id="f1">
+            <p class="name">NAME : KITFO</p>
             <img src="/Tesla/Assets/food category/food image 32.jpg" alt="food">
-            <p>price : </p>
-            <P>shoer description</P>
+            <p>price : 50$</p>
+            <P>Creamy, velvet-smooth hummus crowned with savory spiced beef and toasted pine nuts. 
+It’s the ultimate scoop-and-devour appetizer for your next gathering. </P>
         </div>
          <div class="card" id="f2">
-            <p>NAME</p>
-            <img src="/Tesla/Assets/food category/food image 32.jpg" alt="food">
-            <p>price : </p>
-            <P>shoer description</P>
+            <p class="name">NAME : TEGABINO</p>
+            <img src="/Tesla/Assets/food category/food image 24.jpg" alt="food">
+            <p>price : 70$</p>
+            <P>A thick bubbling stew of slow-rosted chickpea flour,garlic,and berbere spices.served sizzling in a traditional clay pot,it's the heart and soul of any vegeterian platter</P>
         </div>
          <div class="card" id="f3">
-            <p>NAME</p>
-            <img src="/Tesla/Assets/food category/food image 32.jpg" alt="food">
-            <p>price : </p>
-            <P>shoer description</P>
+            <p class="name">NAME : BEYEAYNETU(INJERA PLATER)</p>
+            <img src="/Tesla/Assets/food category/food image 21.jpg" alt="food">
+            <p>price : 55$</p>
+            <P>A vibrant sampler of lentil wats, sautéed greens, and spicy vegetable stews arranged on a large 
+piece of sourdough injera. 
+It’s a communal masterpiece designed for sharing and discovery. </P>
         </div>
          <div class="card" id="f4">
-            <p>NAME</p>
-            <img src="/Tesla/Assets/food category/food image 32.jpg" alt="food">
-            <p>price : </p>
-            <P>shoer description</P>
+            <p class="name">NAME : ETHIOPIAN FIT-FIT</p>
+            <img src="/Tesla/Assets/food category/food image 14.jpg" alt="food">
+            <p>price : 60$</p>
+            <P>A vibrant and tangy Fit-fit, featuring torn bits of injera soaked in a zesty tomato and herb 
+medley. 
+It's the refreshing, savory soul of a traditional Ethiopian breakfast. </P>
         </div>
          <div class="card" id="f5">
-            <p>NAME</p>
-            <img src="/Tesla/Assets/food category/food image 32.jpg" alt="food">
-            <p>price : </p>
-            <P>shoer description</P>
+            <p class="name">NAME : Shekla Tebes (Roasted Beef)  </p>
+            <img src="/Tesla/Assets/food category/food image 8.jpg" alt="food">
+            <p>price : 67$</p>
+            <P>Sizzling Shekla Tebes, traditiona ly roasted beef served over hot coals for that signature smoky 
+f
+inish. 
+A communal feast that smels even better than it looks.  </P>
         </div>
+        </div>
+       <div class="modern" id="modern">
+               <div class="card" id="f1">
+            <p class="name">NAME : Signature Sushi Platter </p>
+            <img src="/Tesla/Assets/food category/food image 31.jpg" alt="food">
+            <p>price : 40$</p>
+            <P>An artful array of fresh rols and nigiri, highlighting the delicate flavors of the ocean. 
+A sophisticated spread that’s as beautiful to look at as it is to eat. </P>
+        </div>
+         <div class="card" id="f2">
+            <p class="name">NAME :  Gourmet Beef Burger </p>
+            <img src="/Tesla/Assets/food category/food image 28.jpg" alt="food">
+            <p>price : 50$</p>
+            <P>A juicy, flame-gri led patty piled high with melted cheese and crisp garden toppings. 
+It’s a messy, two-handed masterpiece that definitely requires extra napkins.</P>
+        </div>
+         <div class="card" id="f3">
+            <p class="name">NAME : Traditional Beef Tacos </p>
+            <img src="/Tesla/Assets/food category/food image 12.jpg" alt="food">
+            <p>price : 50$</p>
+            <P>Authentic street-style tacos packed with seasoned beef, fresh cilantro, and a bite of white 
+onion. 
+Simple, bold, and perfectly balanced with a squeeze of lime. </P>
+        </div>
+         <div class="card" id="f4">
+            <p class="name">NAME :  Classic Pepperoni Pizza </p>
+            <img src="/Tesla/Assets/Hero Section Background img selection/img1.jpg" alt="food">
+            <p>price : 45$</p>
+            <P>A cheesy masterpiece topped with zesty pepperoni and nestled on a perfectly charred, bubbly 
+crust. 
+It’s the kind of slice that makes "just one more" a physical impossibility. </P>
+        </div>
+        </div>
+        <div class="drinks" id="drinks">
+            
          <div class="card" id="f6">
-            <p>NAME</p>
-            <img src="/Tesla/Assets/food category/food image 32.jpg" alt="food">
-            <p>price : </p>
+            <p class="name">NAME : ORANGE JUICE</p>
+            <img src="/Tesla/Assets/food category/food image 27.jpg" alt="food">
+            <p>price : 15$</p>
             <P>shoer description</P>
         </div>
          <div class="card" id="f7">
-            <p>NAME</p>
-            <img src="/Tesla/Assets/food category/food image 32.jpg" alt="food">
-            <p>price : </p>
+            <p class="name">NAME : PAPAYA JUICE</p>
+            <img src="/Tesla/Assets/food category/food image 19.jpg" alt="food">
+            <p>price : 8$</p>
             <P>shoer description</P>
         </div>
          <div class="card" id="f8">
-            <p>NAME</p>
-            <img src="/Tesla/Assets/food category/food image 32.jpg" alt="food">
-            <p>price : </p>
+            <p class="name">NAME : LOMEN JUICE</p>
+            <img src="/Tesla/Assets/food category/food image 18.jpg" alt="food">
+            <p>price : 20$</p>
             <P>shoer description</P>
         </div>
          <div class="card" id="f9">
-            <p>NAME</p>
-            <img src="/Tesla/Assets/food category/food image 32.jpg" alt="food">
-            <p>price : </p>
+            <p class="name">NAME : TEJ</p>
+            <img src="/Tesla/Assets/food category/food image 22.jpg" alt="food">
+            <p>price : 30$</p>
             <P>shoer description</P>
         </div>
-         <div class="card" id="f10">
-            <p>NAME</p>
-            <img src="/Tesla/Assets/food category/food image 32.jpg" alt="food">
-            <p>price : </p>
-            <P>shoer description</P>
         </div>
     </div>
 </main>
